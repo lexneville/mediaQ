@@ -1,0 +1,30 @@
+@media/*(min-width:0px) and */(min-width:150px) {
+    body{
+        background-color: rgb(66, 148, 34);
+    }
+    /* .column > .three-columns{
+        width: 33.333333%;
+        float: left;
+    } */
+}
+
+@media(min-width:921px){
+    body{
+        background-color: yellow;
+    }
+    .column > .three-columns{
+        width: 33.333333%;
+        float: left;
+    }
+}
+
+@media(min-width:1000px) and (max-width:1200px){
+    body{
+        background-color: rgb(34, 112, 148);
+    }
+    .column > .three-columns{
+        width: 33.333333%;
+        float: left;
+    }
+}
+
